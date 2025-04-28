@@ -18,7 +18,7 @@ function ProductsGrid({ products }: { products: Product[] }) {
                 <CardContent className='p-4'>
                   <div className='relative h-64 md:h-48 rounded overflow-hidden '>
                     <Image
-                      src={image}
+                      src={image} 
                       alt={name}
                       fill = {true}
                       sizes='(max-width:768px) 100vw,(max-width:1200px) 50vw,33vw'
