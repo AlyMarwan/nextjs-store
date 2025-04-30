@@ -10,6 +10,7 @@ const initialState = {
 
 function FormContainer({action,children}:{action:actionFunction,children:React.ReactNode}) {
   const [state, formAction] = useActionState(action,initialState)
+  console.log('Current state:', state);
   useEffect(()=>{
     if(state.message){
       toast(state.message)

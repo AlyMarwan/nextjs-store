@@ -26,7 +26,7 @@ export const productSchema = z.object({
   ),
 });
 
-export const imageScema = z.object({
+export const imageSchema = z.object({
   image:validateImageFile()
 })
 

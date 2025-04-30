@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Container from "@/components/global/Container";
 import Providers from "./providers";
 import {ClerkProvider} from '@clerk/nextjs'
-import { Toaster } from "@/components/ui/sonner"
+import { Toaster } from "sonner"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,8 +35,8 @@ export default function RootLayout({
         <Navbar/>
         <Container className="py-20">
           {children}
-          <Toaster/>
         </Container>
+          <Toaster/>
         </Providers>
       </body>
     </html>
