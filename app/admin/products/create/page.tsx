@@ -1,4 +1,4 @@
-import { SubmitBUtton } from "@/components/form/Buttons"
+import { SubmitButton } from "@/components/form/Buttons"
 import CheckboxInput from "@/components/form/CheckboxInput"
 import FormContainer from "@/components/form/FormContainer"
 import FormInput from "@/components/form/FormInput"
@@ -27,7 +27,7 @@ function CreateProductPage() {
           <TextArea name="description" labelText="product description" defaultValue={description}/>
           <div className="mt-6">
             <CheckboxInput name="featured" label="featured"/>
-            <SubmitBUtton text="create product" className="mt-8"/>
+            <SubmitButton text="create product" className="mt-8"/>
           </div>
         </FormContainer>
       </div>
