@@ -5,7 +5,7 @@ import FavouriteToggleForm from "./FavouriteToggleForm"
 
 async function FavouriteToggleButton({ productId }: { productId: string }){
   const {userId} = await auth()
-  if(!userId) return CardSignInButton;
+  if(!userId) return <CardSignInButton/>;
   const favoriteId = await fetchFavoriteId({productId})
 
   return (
