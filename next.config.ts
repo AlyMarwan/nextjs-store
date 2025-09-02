@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
         hostname: 'images.pexels.com',
       },{
         protocol:'https',
-        hostname:'onqlilniwrzbyrsxnikr.supabase.co'
+        hostname:'djaawgnjpifduclorryh.supabase.co'
       },{
         protocol:'https',
         hostname:'img.clerk.com'
